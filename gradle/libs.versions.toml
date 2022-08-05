@@ -1,0 +1,9 @@
+[versions]
+com-fasterxml-jackson = '2.13.3'
+org-junit = '5.9.0'
+
+[libraries]
+com-fasterxml-jackson-bom = { module = 'com.fasterxml.jackson:jackson-bom', version.ref = 'com-fasterxml-jackson' }
+com-fasterxml-jackson-datatype-jsr310 = { module = 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310', version.ref = 'com-fasterxml-jackson' }
+com-fasterxml-jackson-module-kotlin = { module = 'com.fasterxml.jackson.module:jackson-module-kotlin', version.ref = 'com-fasterxml-jackson' }
+org-junit-jupiter-api = { module = 'org.junit.jupiter:junit-jupiter-api', version.ref = 'org-junit' }
